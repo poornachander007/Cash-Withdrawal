@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.page_container {
+  padding: 30px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #150b3e;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+
+.name_container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.icon {
+  color: #585076;
+  font-size: 22px;
+  font-weight: 800;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.name {
+  color: #c4c4c4;
+  font-size: 28px;
+}
+
+.balance_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.present_amount_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.denomination_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.your_balance_msg {
+  color: #c4c4c4;
+  font-size: 24px;
+}
+
+.present_amount {
+  color: #d4d2db;
+  font-size: 35px;
+}
+
+.in_rupees {
+  font-size: 16px;
+  color: #c4c4c4;
+}
+
+.withdraw {
+  color: #d4d2db;
+  align-self: flex-start;
+}
+
+.choose_sum {
+  color: #c4c4c4;
+  align-self: flex-start;
+}
